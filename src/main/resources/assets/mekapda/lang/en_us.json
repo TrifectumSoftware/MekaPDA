@@ -1,0 +1,23 @@
+{
+  "itemGroup.mekapda": "MekaPDA",
+  "item.mekapda.meka_pda": "Meka-PDA",
+  "mekapda.screen.public": "PUBLIC",
+  "mekapda.screen.trusted": "TRUSTED",
+  "mekapda.screen.private": "PRIVATE",
+  "mekapda.screen.sort.name": "NAME",
+  "mekapda.screen.sort.devices": "DEVICES",
+  "mekapda.screen.sort.items": "ITEMS",
+  "mekapda.screen.sort.energy": "ENERGY",
+  "mekapda.screen.sort.fluid": "FLUID",
+  "mekapda.screen.sort.chemical": "CHEMICAL",
+  "mekapda.screen.empty.public": "NO PUBLIC FREQUENCIES",
+  "mekapda.screen.empty.trusted": "NO TRUSTED FREQUENCIES",
+  "mekapda.screen.empty.private": "NO PRIVATE FREQUENCIES",
+  "mekapda.screen.empty.hint": "Create a QIO, Teleporter or Entangloporter frequency first.",
+  "mekapda.screen.loading": "SCANNING...",
+  "mekapda.screen.highlight": "HIGHLIGHT POSITION",
+  "mekapda.screen.config": "OPEN MEKANISM CONFIG",
+  "mekapda.type.qio": "QIO",
+  "mekapda.type.inventory": "FREQUENCY",
+  "mekapda.type.teleporter": "TELEPORTER"
+}

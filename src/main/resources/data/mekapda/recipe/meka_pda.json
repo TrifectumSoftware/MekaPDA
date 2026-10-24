@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "STS",
+    "TAT",
+    "STS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "T": {
+      "item": "mekanism:teleportation_core"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "result": {
+    "id": "mekapda:meka_pda",
+    "count": 1
+  }
+}
