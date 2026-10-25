@@ -1,4 +1,4 @@
-Mod using GemRender based on WFLib that allows you to see all your Mekanism wireless frequencies.
+Addon for Mekanism that adds in a PDA to view your wireless frequencies!
 
 NeoForge 1.21.1
 

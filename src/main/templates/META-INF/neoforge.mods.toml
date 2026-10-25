@@ -46,7 +46,7 @@ authors="iris-lgtm, trifectumsoftware"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A handheld Meka-PDA for browsing Mekanism's public, trusted and private frequencies and inspecting every device on a network.
+Addon for Mekanism that adds in a PDA to view your wireless frequencies!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

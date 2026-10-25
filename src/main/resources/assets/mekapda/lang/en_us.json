@@ -16,8 +16,5 @@
   "mekapda.screen.empty.hint": "Create a QIO, Teleporter or Entangloporter frequency first.",
   "mekapda.screen.loading": "SCANNING...",
   "mekapda.screen.highlight": "HIGHLIGHT POSITION",
-  "mekapda.screen.config": "OPEN MEKANISM CONFIG",
-  "mekapda.type.qio": "QIO",
-  "mekapda.type.inventory": "FREQUENCY",
-  "mekapda.type.teleporter": "TELEPORTER"
+  "mekapda.screen.config": "OPEN MEKANISM CONFIG"
 }

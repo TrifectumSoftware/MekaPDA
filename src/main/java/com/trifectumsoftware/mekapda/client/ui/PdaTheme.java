@@ -30,6 +30,10 @@ public final class PdaTheme {
     public static final ResourceLocation ICON_SORTING = own("textures/gui/sorting.png");
     public static final ResourceLocation ICON_CONFIG = own("textures/gui/config.png");
     public static final ResourceLocation ICON_BACK = own("textures/gui/back.png");
+    public static final ResourceLocation ICON_ARROW_DOWN = own("textures/gui/arrow_down.png");
+    public static final ResourceLocation ICON_TYPE_QIO = own("textures/gui/qio.png");
+    public static final ResourceLocation ICON_TYPE_ENTANGLOPORTER = own("textures/gui/entangloporter.png");
+    public static final ResourceLocation ICON_TYPE_TELEPORTER = own("textures/gui/teleporter.png");
 
     private PdaTheme() {
     }
@@ -46,16 +50,21 @@ public final class PdaTheme {
         };
     }
 
-    public static String typeLabel(String typeName) {
-        String key = switch (typeName) {
-            case "QIO" -> "mekapda.type.qio";
-            case "Inventory" -> "mekapda.type.inventory";
-            case "Teleporter" -> "mekapda.type.teleporter";
-            default -> "mekapda.type.qio";
+    public static ResourceLocation typeIcon(String typeName) {
+        return switch (typeName) {
+            case "Inventory" -> ICON_TYPE_ENTANGLOPORTER;
+            case "Teleporter" -> ICON_TYPE_TELEPORTER;
+            default -> ICON_TYPE_QIO;
         };
-        return Component.translatable(key).getString();
     }
 
+    public static String typeFrequencyLabel(String typeName) {
+        return switch (typeName) {
+            case "Inventory" -> "Entangloporter Frequency";
+            case "Teleporter" -> "Teleporter Frequency";
+            default -> "QIO Frequency";
+        };
+    }
     public static String format(long value) {
         if (value < 1000) {
             return Long.toString(value);
